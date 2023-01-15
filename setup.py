@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name="backend-base",
-    version="0.1.0",
+    version="0.1.1",
     author="Carlos Osuna",
     author_email="carlosalvaroosuna1@gmail.com",
     description="Backend base package based of some django modules",
@@ -21,7 +21,5 @@ setuptools.setup(
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
     ],
-    package_dir={"": "backend_base"},
-    packages=setuptools.find_packages(where="backend_base"),
     python_requires=">=3.8"
 )
