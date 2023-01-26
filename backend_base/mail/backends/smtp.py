@@ -3,7 +3,7 @@ import smtplib
 import ssl
 import threading
 
-from conf import settings
+from backend_base.conf import settings
 from backend_base.mail.backends.base import BaseEmailBackend
 from backend_base.mail.message import sanitize_address
 from backend_base.mail.utils import DNS_NAME
