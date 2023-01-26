@@ -2,7 +2,7 @@
 Backend for test environment.
 """
 
-import mail
+from backend_base import mail
 from backend_base.mail.backends.base import BaseEmailBackend
 
 
